@@ -1,0 +1,28 @@
+.friend-list {
+    margin-top: 30px;
+    width: 100vw;
+    height: 100vh;
+}
+.friend-list .liste {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center
+}
+.liste h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+.liste ul {
+    list-style-type: none;
+}
+.liste ul li {
+    padding: 8px;
+}
+.liste ul span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 10px;
+    padding-right: 10px;
+}
